@@ -16,7 +16,7 @@ on:
 env:
   ROM_URL: https://dl.google.com
   ROM_NAME: AOSP_15_ARM64_GMS
-  ARCH: arm64
+  TZ: Asia/Shanghai
 
 jobs:
   build:
